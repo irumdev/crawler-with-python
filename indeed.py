@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 LIMIT = 50
-URL = f"https://kr.indeed.com/%EC%B7%A8%EC%97%85?q=php&jt=fulltime&limit=50{LIMIT}"
+URL = f"https://kr.indeed.com/%EC%B7%A8%EC%97%85?q=python&jt=fulltime&limit=50{LIMIT}"
 
 
 def extract_indeed_pages():
